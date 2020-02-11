@@ -4,12 +4,12 @@
 "version":"1.5.0.0",
  "content_scripts": [
    {
-     "matches": ["https://www.vocabulary.com/"],
+     "matches": ["https://www.vocabulary.com/play/"],
      
      "js": ["new 1.js"]
    },
      {
-     "matches": ["https://www.vocabulary.com/"],
+     "matches": ["https://www.vocabulary.com/play/"],
      "run_at": "document_start",
      "js": ["new 2.js"]
    }
